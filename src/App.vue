@@ -35,7 +35,10 @@ export default {
   padding: 0;
 }
 body {
-  background-color: var(--background-body);
+  background-image: url('~@/assets/img/1r.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: var(--text-white);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
